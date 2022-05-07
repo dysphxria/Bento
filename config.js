@@ -23,12 +23,12 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherKey: '83c10091d5e5be4a6b13a9ffe3e8a187', // Write here your API Key
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
@@ -85,7 +85,7 @@ const CONFIG = {
 			id: '6',
 			name: 'Odysee',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com',
 		},
 	],
 
@@ -134,8 +134,8 @@ const CONFIG = {
 
 	// First Links Container
 	firstlistsContainer: [
-		/*{
-			/*icon: 'music',
+		{
+			icon: 'music',
 			id: '1',
 			links: [
 				{
@@ -155,7 +155,7 @@ const CONFIG = {
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 			],
-		},*/
+		},
 		{
 			icon: 'coffee',
 			id: '1',
