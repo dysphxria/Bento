@@ -134,8 +134,8 @@ const CONFIG = {
 
 	// First Links Container
 	firstlistsContainer: [
-		{
-			icon: 'music',
+		/*{
+			/*icon: 'music',
 			id: '1',
 			links: [
 				{
@@ -155,10 +155,10 @@ const CONFIG = {
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 			],
-		},
+		},*/
 		{
 			icon: 'coffee',
-			id: '2',
+			id: '1',
 			links: [
 				{
 					name: 'Linkedin',
